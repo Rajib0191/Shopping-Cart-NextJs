@@ -1,0 +1,90 @@
+.home_page_categories_product_section{
+    position: relative;
+    padding: 100px 0;
+}
+.home_page_categories_product_heading{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.home_page_categories_product_heading h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: #111E40;
+}
+.home_page_categories_product_heading p{
+    font-size: 18px;
+    color: #89898B;
+}
+.home_page_categories_product_container{
+    position: relative;
+    height: 350px;
+    border: 1px solid #dfdfdf;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.home_page_categories_product_img_container{
+    position: relative;
+    height: 220px;
+    background-color: #fdfdfc;
+}
+.home_page_categories_product_container_thumb{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.home_page_categories_product_container_details{
+    text-align: left;
+    margin: 10px 20px;
+}
+.home_page_categories_product_container_details h6{
+    font-size: 18px;
+    color: #101f40;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.home_page_categories_product_container_details_bottom_part{
+    position: relative;
+    text-align: left;
+    border-top: 1px solid #dfdfdf;
+    padding: 12px 0 0 0;
+}
+.home_page_categories_product_container_details_bottom_part h6{
+    margin: 0 0 0 20px;
+    font-size: 14px;
+    color: #ff0000;
+}
+.home_page_categories_product_container_details_bottom_part_asset{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.home_page_categories_product_container_details_bottom_part_asset_cart,
+.home_page_categories_product_container_details_bottom_part_asset_heart{
+    border: none;
+    padding: 9px;
+    background: #04529e;
+    
+}
+.fa_shopping_cart, 
+.fa_heart{
+ color: #fff;
+}
+.home_page_categories_product_container_details_bottom_part_asset_heart:hover .fa_heart{
+    color: red;
+}
+.fa_heart_click{
+    color: red;
+}
+.home_page_categories_product_container_details_bottom_part_asset_heart{
+    border-left: 1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;
+}
+.fa_star {
+    font-size: 12px;
+    color: #e9bb00;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}

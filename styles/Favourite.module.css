@@ -1,0 +1,35 @@
+.favoutite_section{
+    position: relative;
+    margin: 50px 0;
+}
+.table_row th{
+    text-align: center;
+}
+.table_body_row td{
+    text-align: center;
+    padding: 5px;
+}
+.favourite_image{
+    max-width: 50px;
+    max-height: 50px;
+    padding: 5px;
+}
+.favourite_btn{
+    padding: 5px;
+    margin: 8px auto;
+    outline: none;
+    background: transparent;
+    border: 1px solid gray;
+}
+.favourite_btn:hover{
+    background: green;
+    color: #fff;
+}
+.itemCrossBar{
+    cursor: pointer;
+}
+.itemCrossBar,
+.price,
+.title{
+    margin: 15px auto;
+}

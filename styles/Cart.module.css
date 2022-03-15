@@ -1,0 +1,250 @@
+.cart_section{
+    position: relative;
+    padding: 50px 0;
+}
+.empty_cart{
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 64px;
+    margin-bottom: 50px;
+}
+.cart_items_empty{
+    margin-bottom: 30px;
+}
+.shop_button{
+    text-decoration: none;
+    padding: 10px 10px;
+    margin-top: -13px;
+    color: #fff !important;
+    background: orange;
+}
+.woocommerce_cart_form{
+    position: relative;
+    width: 100%;
+}
+.cart_table{
+    position: relative;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.cart_table thead tr th {
+    font-size: 15px;
+    line-height: 44px;
+    font-weight: 500;
+    color: #222F5A;
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 19px;
+}
+.cart_table tbody tr td {
+    line-height: 30px;
+    color: #565872;
+    padding: 30px 10px;
+    text-align: center;
+    background: transparent;
+}
+.cart_item {
+    border: 1px solid #E2EEFF;
+}
+.product_remove{
+    padding-left: 25px;
+    font-weight: 500;
+    color: #222F5A;
+    cursor: pointer;
+}
+.pd_image{
+    max-width: 65px;
+    max-height: 65px;
+    text-align: center;
+    border: 1px solid #E2EEFF;
+    border-radius: 5px;
+    display: inline-block;
+}
+.pd_image img{
+    max-width: 60px;
+    max-height: 60px;
+    padding: 5px;
+}
+.product_name {
+    color: inherit;
+    padding-left: 18px;
+}
+.price{
+    line-height: 44px;
+    color: #222F5A;
+}
+.quantity{
+    position: relative;
+    width: 115px;
+    height: 35px;
+    margin: 0 auto;
+    border-radius: 3px;
+    background: #F2F7FF;
+    border: 1px solid #E2EEFF;
+
+}
+.qtyBtn_btnMinus{
+    background: transparent;
+    height: 100%;
+    width: 30%;
+    font-size: 17px;
+    line-height: 53px;
+    border: none;
+    color: #333333;
+    font-weight: 500;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    line-height: 35px;
+    top: 0;
+    left: 0;
+}
+.qtyBtn_btnPlus{
+    background: transparent;
+    height: 100%;
+    width: 30%;
+    font-size: 17px;
+    line-height: 53px;
+    border: none;
+    color: #333333;
+    font-weight: 500;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    line-height: 35px;
+    left: auto;
+    right: 0;
+    border: none;
+}
+.quantity input[type="text"] {
+    border: none;
+    color: #333333;
+    font-weight: 500;
+    height: 100%;
+    width: 40%;
+    background: transparent;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+}
+.coupon{
+    position: relative;
+    float: left;
+    height: 58px;
+    width: 400px;
+}
+.coupon_code {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #E2EEFF;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 60px;
+    color: #565872;
+    font-weight: 400;
+    padding: 0 170px 0 20px;
+    margin: 0 0 0;
+}
+.apply_coupon_button{
+    position: absolute;
+    right: 7px;
+    top: 7px;
+    height: 45px;
+    border: none;
+    margin: 0;
+    outline: none;
+    padding: 0 25px;
+    background: #412cc5;
+    color: #fff;
+    border-radius: 5px;
+}
+.clear_cart_btn {
+    border: none;
+    outline: none;
+    height: 45px;
+    padding: 0 22px;
+    margin-top: 7px;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: capitalize;
+    background: #412CC5;
+}
+/* ====================Cart================================ */
+.cart_totals{
+    position: relative;
+}
+.cart_totals h4{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 44px;
+    color: #222F5A;
+    margin: 0 0 19px;
+}
+.shop_table {
+    position: relative;
+    width: 100%;
+    border: 1px solid #E2EEFF;
+    border-radius: 5px;
+    border-collapse: separate;
+    padding: 0;
+    margin: 0;
+}
+.shop_table tr th {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 44px;
+    padding: 16px 20px;
+    color: #222F5A;
+    border-top: 1px solid #E2EEFF;
+    width: 35%;
+}
+.shop_table tr td {
+    padding: 31px 12px 15px;
+    border: none;
+    border-top: 1px solid #E2EEFF;
+    text-align: right;
+}
+.cart_subtotal td span{
+    line-height: 44px;
+    color: #222F5A;
+}
+.cart_totals .shop_table tr.cart_subtotal th {
+    border-top: none;
+}
+.cart_totals .shop_table tr.cart_subtotal th,
+.cart_totals .shop_table tr.cart_subtotal td {
+    border-top: none;
+}
+.shipping td p{
+    line-height: 30px;
+    color: #565872;
+}
+/**********************************************************Checkout Button********/
+
+.process_to_checkout {
+    margin: 20px 0 0;
+    padding: 0;
+}
+.process_to_checkout a{
+    text-decoration: none;
+}
+.checkout_btn {
+    display: inline-block;
+    width: 100%;
+    padding: 22px 44px;
+    font-size: 15px;
+    line-height: .8;
+    font-family: 'Nunito', sans-serif;
+    color: #fff !important;
+    position: relative;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 700;
+    background: #412CC5;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Nunito+Sans:wght@400;600;700&family=Nunito:wght@300;400;500;600;700&display=swap');
+
+body{
+  /* background: #f2f2f2; */
+  color: #333;
+  font-family: 'Nunito';
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+nav{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding: 0px 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: #FFFFFF;
+  border-bottom: 1px solid #ddd;
+}
+.favourite_icon,
+.cart_icon,
+.home_nav_item{
+  font-size: 20px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+.favourite_icon{
+  color: red;
+}
+.cart_icon{
+  color: green;
+}
+.home_nav_item{
+  color: #333 !important;
+}
+.cart_icon_span{
+    position: absolute;
+    right: 51px;
+    top: 2px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+.cart_favourite_span{
+  position: absolute;
+  top: 2px;
+  right: 80px;
+  width: 20px;
+  height: 20px;
+  background: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  border-radius: 50%;
+}
+nav .logo{
+  margin-right: auto;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #23282D;
+  color: #fff;
+  padding: 10px 0;
+}
+.footer p{
+  margin: 0;
+}
+/*SideBag */
+.sideBag_container{
+    position: fixed;
+    right: 0;
+    width: 128px;
+    bottom: 30px;
+    background: url(../assets/img/Home2/sidebag.JPG) left top no-repeat;
+    height: 115px;
+    background-size: 100%;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+    text-decoration: none;
+    color: rgb(0, 0, 0) !important;
+}
+.cart_amount{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 62px;
+  height: 36px;
+  text-align: center;
+}
+.cart_currency{
+  padding-right: 5px;
+}
